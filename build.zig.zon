@@ -1,0 +1,17 @@
+.{
+    .name = .x11_headers,
+    .version = "1.8.12",
+    .fingerprint = 0x77744e5c41acf47a,
+    .minimum_zig_version = "0.14.0",
+
+    .paths = .{
+        "GL",
+        "X11",
+        "xcb",
+        "xkbcommon",
+        "build.zig",
+        "build.zig.zon",
+        "update.sh",
+        "verify.sh",
+    },
+}
